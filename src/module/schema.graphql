@@ -1,0 +1,27 @@
+type Query {
+  getMyProfile: User
+  test: String
+  getAllTrainees: [Trainee]
+  getTraineeById(id: ID!): Trainee
+  getMe : Token
+}
+
+type Mutation {
+  createTrainee(firstname: String, lastname: String, email: String, image : String): Trainee
+  updateTrainee(
+    _id: ID!
+    firstname: String
+    lastname: String
+    email: String
+    image : String
+  ): Trainee
+  deleteTrainee(_id: ID!): Trainee
+  signUpUser(firstname : String!, lastname : String!, email : String!, password : String!) : Token
+  loginUser(email: String!, password: String!): Token
+}
+
+type Subscription {
+  addTrainee: Trainee!
+  updateTrainee: Trainee!
+  deleteTrainee: ID
+}

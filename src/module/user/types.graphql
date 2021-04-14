@@ -1,0 +1,13 @@
+type User{
+    id : ID!,
+    name : String,
+    email : String
+}
+
+type Token{
+    token : String 
+    email : String
+    status : String
+    password : String
+    name : String
+}

@@ -1,0 +1,11 @@
+type Trainee {
+    _id : ID!
+    firstname : String
+    lastname : String
+    email : String
+    image : String
+}
+
+type Token{
+    token : String
+}
