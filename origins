@@ -1,0 +1,29 @@
+
+
+
+Multiple remote in single git repositories
+
+default remote name: origin
+
+default branch name: master
+
+
+command to push code to branch master:
+
+SYNTAX: git push <remote-name> <branch-name>
+EXAMPLE: git push origin master
+
+whenever we pushed code to branch master, it will pushed it to the master branch of remote: origin
+
+
+create second remote called 'origin1:
+
+SYNTAX: git remote add <new-remote-name> <repository-link>
+EXAMPLE: git remote add origin1 https://github.com/squad-hub/js-react-drag-and-drop-accelerator.git
+
+command to check the remote :
+
+git remote
+
+
+
