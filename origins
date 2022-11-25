@@ -21,9 +21,8 @@ create second remote called 'origin1:
 SYNTAX: git remote add <new-remote-name> <repository-link>
 EXAMPLE: git remote add origin1 https://github.com/squad-chub/js-react-drag-and-drop-accelerator.git
 
-command to check the remote :
-
-git remote
+command to check the remote : git remote
+command to check the remote and its url : git remote -v
 
 
 
