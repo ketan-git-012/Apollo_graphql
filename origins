@@ -19,7 +19,7 @@ whenever we pushed code to branch master, it will pushed it to the master branch
 create second remote called 'origin1:
 
 SYNTAX: git remote add <new-remote-name> <repository-link>
-EXAMPLE: git remote add origin1 https://github.com/squad-hub/js-react-drag-and-drop-accelerator.git
+EXAMPLE: git remote add origin1 https://github.com/squad-chub/js-react-drag-and-drop-accelerator.git
 
 command to check the remote :
 
